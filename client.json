@@ -1,0 +1,11 @@
+{
+  "client": [
+    {
+      "nome": "Robson",
+      "email": "eurobson@ricardoeletro.com.br",
+      "cpf": 51271291291,
+      "telefone": 11952258198,
+      "endereço": "Casa do caralho"
+    }
+  ]
+}

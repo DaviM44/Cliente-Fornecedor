@@ -5,8 +5,33 @@
     <form class="form-floating">
         <input type="text" class="form-control" id="floatingInputValue" placeholder="Nome" value=" ">
         <label for="floatingInputValue">Insira o nome: </label>
-     
       </form>
+      <div name="issae">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">email</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Endereço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let client of client">
+                <th scope="row">{{client.id}}</th>
+                <td>{{client.nome}}</td>
+                <td>{{client.email}}</td>
+                <td>{{client.cpf}}</td>
+                <td>{{client.telefone}}</td>
+                <td>{{client.endereco}}</td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+      </div>
     
     </div>
     

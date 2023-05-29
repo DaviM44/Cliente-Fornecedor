@@ -1,18 +1,28 @@
 {
   "client": [
-    { "id": 1,
+    {
+      "id": 1,
       "nome": "Robson",
       "email": "eurobson@ricardoeletro.com.br",
       "cpf": 51271291291,
       "telefone": 11952258198,
       "endereco": "Casa do caralho"
     },
-    { "id": 2,
+    {
+      "id": 2,
       "nome": "Eury",
       "email": "eurobson@daawdad.com.br",
       "cpf": 51271291291,
       "telefone": 11952258198,
       "endereco": "Casa do caralho"
+    },
+    {
+      "id": 3,
+      "nome": "Davi Matheus Lima de Mendonça",
+      "email": "davi@isso.com",
+      "cpf": 2131231312,
+      "telefone": 142115,
+      "endereco": "aqui"
     }
   ]
 }

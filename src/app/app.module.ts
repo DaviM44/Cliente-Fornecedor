@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FornecedorComponent } from './fornecedor/fornecedor.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ClienteComponent } from './cliente/cliente.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

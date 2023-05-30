@@ -24,7 +24,8 @@ constructor(private clientService: ClientService,
                 email : [''],
                 cpf : [''],
                 telefone : [''],
-                endereco : ['']
+                endereco : [''],
+                plau : ['']
 
               });
             }
@@ -46,7 +47,15 @@ constructor(private clientService: ClientService,
   save(){
     if (this.isEditing)
     {
-
+      this.clientService.update(this.formGroupClient.value).subscribe(
+        {
+          next: () => {
+            this.loadClients();
+            this.formGroupClient.reset();
+            this.isEditing = false;
+          }
+        }
+      )
     }
     else{
       this.clientService.save(this.formGroupClient.value).subscribe(

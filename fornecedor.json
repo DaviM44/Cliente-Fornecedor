@@ -1,0 +1,31 @@
+{
+  "fornecedor": [
+    {
+      "id": 1,
+      "nome": "Heckler & Koch",
+      "email": "hecklerkoch@contact.net",
+      "cnpj": 312312321,
+      "telefone": 125364444,
+      "local": "Berlim-Alemanha",
+      "nac": "Internacional"
+    },
+    {
+      "id": 2,
+      "nome": "SIMA Electrónica",
+      "email": "simaelectrcnica@lm.gov.pr",
+      "cnpj": 123142456416,
+      "telefone": 4646365869583,
+      "local": "Lima-Peru",
+      "nac": "Internacional"
+    },
+    {
+      "id": 3,
+      "nome": "IMBEL",
+      "email": "ouvidoria@imbel.gov.b",
+      "cnpj": 444232000139,
+      "telefone": 6134154538,
+      "local": "Brasília/DF",
+      "nac": "Nacional"
+    }
+  ]
+}

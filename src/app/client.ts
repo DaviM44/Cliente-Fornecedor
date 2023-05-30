@@ -4,5 +4,6 @@ export interface Client {
     email : string;
     cpf : number;
     telefone : number;
-    endereco : string
+    endereco : string;
+    plau : boolean
 }

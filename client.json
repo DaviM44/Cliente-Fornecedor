@@ -2,27 +2,30 @@
   "client": [
     {
       "id": 1,
-      "nome": "Robson",
-      "email": "eurobson@ricardoeletro.com.br",
-      "cpf": 51271291291,
-      "telefone": 11952258198,
-      "endereco": "Casa do caralho"
+      "nome": "Zosar \"Zeus\" Kalu",
+      "email": "zeus@kortac.mil",
+      "cpf": 1221523462,
+      "telefone": 1198823213,
+      "endereco": "Olimpo",
+      "plau": ""
     },
     {
       "id": 2,
-      "nome": "Eury",
-      "email": "eurobson@daawdad.com.br",
-      "cpf": 51271291291,
-      "telefone": 11952258198,
-      "endereco": "Casa do caralho"
+      "nome": "Sebastian Krueger",
+      "email": "krueger@chimera.mil",
+      "cpf": 124125135315,
+      "telefone": 9600987089,
+      "endereco": "Desconhecido",
+      "plau": ""
     },
     {
       "id": 3,
-      "nome": "Davi Matheus Lima de Mendonça",
-      "email": "davi@isso.com",
-      "cpf": 2131231312,
-      "telefone": 142115,
-      "endereco": "aqui"
+      "nome": "Diego Almagro",
+      "email": "diegoalmagro@fed.gov",
+      "cpf": 246547638,
+      "telefone": 683225253,
+      "endereco": "Caracas",
+      "plau": null
     }
   ]
 }
